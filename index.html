@@ -1,38 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pet Américo</title>
+    <title>PetShop</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400..700;1,400..700&family=Climate+Crisis:YEAR@1979&family=Luckiest+Guy&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <header>
         <nav>
             <ul>
-
-                <li><a href="index.html">Home</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="servicos.html">Serviços</a></li>
-                <li><a href="contato.html">Contato</a></li>
-
+                <li><a href="index.html" class="link-menu">Home</a></li>
+                <li><a class="link-menu">Sobre</a></li>
+                <li><a href="serviços.html" class="link-menu">Serviços</a></li>
+                <li><a class="link-menu">Contato</a></li>
             </ul>
         </nav>
-        <button class="botao-login">Login</button>
+        <button class="botaoL">Login</button>
     </header>
     <main>
-     <div>
-    <img src="img/logo.jpg" alt="logo-pet" class="logo">
-            <h1 class="titulo">NÓS CUIDAMOS</h1>
-            <h2 class="sub-titulo">Do Seu Pet</h2>
-            <p class="paragrafo">Oferecemos todo o carinho e a dedicação que o seu melhor amigo merece. Cuidamos da saúde e do bem-estar do seu pet com profissionais qualificados e muito amor.</p>
-            <button class="botao-explore" onclick="imagemApi()">Explore</button>
-        </div>
+        <div>
+
+
+            <img src="./img/logo.jpg" alt="Logo_Pet" class="logo">
+            <div class="texto">
+                <h1 class="titulo">NÓS CUIDAMOS</h1>
+                <h2 class="subtitulo">Do Seu Pet.</h2>
+                <p class="paragrafo"> Oferecemos todo o carinho e a dedicação que o seu melhor amigo merece. Cuidamos da
+                    saúde edo bem-estar
+                    do seu pet com profissionais qualificados e muito amor.</p>
+                <button class="botaoE" onclick="imagemApi()">Explore</button>
+
     </main>
-</div class=dogs-div>
+    </div class=dogs-div>
+    <img src="" class="img-dog">
+    </div>
     <footer>
-        <p>&copy; 2026 Felipe Américo</p>
+        <p>&copy; 2026 Felipe Américo.</p>
     </footer>
+
+    <script src="app.js"></script>
 </body>
-<script src="app.js"></script>
+
 </html>
